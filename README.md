@@ -1,8 +1,6 @@
-# My-calculator.c
-Calculator using c programming 
 ---
 
-# My Simple Calculator
+# My Simple Calculator using C programming
 
 I made this very basic calculator program in C. It can add, subtract, or divide two whole numbers you enter.
 
@@ -17,5 +15,9 @@ It'll ask you for two numbers, and then what you want to do with them (add, subt
 
 * I included a prompt for a third decimal number (`c`), but I didn't actually use it for any calculations in this version.
 * Be careful when dividing! If you try to divide a number by zero, the program might not work correctly.
+
+---
+
+Thanks for checking out my simple calculator!
 
 ---
