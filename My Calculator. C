@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+void main(){
+
+    int a,b, choice;
+    float c, choice;
+
+    printf("Enter a: ");
+    scanf("%d", &a);
+
+    printf("Enter b: ");
+    scanf("%d", &b);
+
+    printf("Enter c: ");
+    scanf("%f", &c);
+
+    printf("1.Add\n2.Subtract\n3.Divide Enter choice>> ");
+    scanf("%d", &choice);
+
+    switch(choice){
+        case 1: printf("%d", a+b); break;
+        case 2: printf("%d", a-b); break;
+        case 3: printf("%d", a/b); break;
+
+        default : printf("Invalid Option! Try again!");
+    }
+
+}
